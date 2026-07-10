@@ -1,6 +1,5 @@
-const projectData = require("../data/projectData");
-const sectorData = require("../data/sectorData");
-
+const projectData = require("../data/projectdata.json");
+const sectorData = require("../data/sectordata.json");
 let projects = [];
 
 function initialize() {
