@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "sector_name": "Electricity" 
+    },
+    {
+        "id": 2,
+        "sector_name": "Industry, Materials & Waste" 
+    },
+    {
+        "id": 3,
+        "sector_name": "Transportation" 
+    },
+    {
+        "id": 4,
+        "sector_name": "Food Agriculture, Land & Ocean (FALO)" 
+    },
+    {
+        "id": 5,
+        "sector_name": "FALO & Nature-Based Carbon Removal" 
+    },
+    {
+        "id": 6,
+        "sector_name": "Nature Based Carbon Removal" 
+    }
+]

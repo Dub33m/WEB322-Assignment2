@@ -1,0 +1,303 @@
+[
+    {   
+        "id": 1,
+        "sector_id": 1,
+        "title": "Deploy LED Lighting",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_LEDLighting_2400x2400.jpg?itok=viThnGFb",
+        "summary_short": "We define the Deploy LED Lighting solution as replacing energy-inefficient light sources with light-emitting diodes (LEDs).",
+        "intro_short": "LED technology for lighting indoor and outdoor spaces is more energy-efficient than other lighting sources currently on the market (Zissis et al., 2021). This is because LEDs are solid-state semiconductors that emit light generated through a direct conversion of the flow of electricity (electroluminescence) rather than heating a tungsten filament to make it glow. More of the electrical energy goes to producing light in an LED lamp than in less-efficient alternative lighting technologies such as incandescent light bulbs or compact fluorescent lamps (CFLs) (Koretsky, 2021; Nair & Dhoble, 2021a).",
+        "impact": "We estimated that current adoption cuts about 0.36 Gt CO₂‑eq emissions on a 100-yr basis compared with the previous alternative lighting sources (Table 8). The low achievable adoption scenario of 87% LED lamps could cut emissions 0.62 Gt CO₂‑eq/yr due to reduced electricity consumption, while a high achievable adoption scenario of 92% LED lamps could cut emissions 0.65 Gt CO₂‑eq/yr. If the adoption ceiling of 100% LEDs for lighting buildings is reached, we estimate that 0.71 Gt CO₂‑eq/yr could be avoided (Table 8).",
+        "original_source_url": "https://drawdown.org/explorer/deploy-led-lighting"
+    },
+    {   
+        "id": 2,
+        "sector_id": 1,
+        "title": "Deploy Offshore Wind Turbines",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_OffshoreWind_2400x2400.jpeg?itok=0Pxv1Csk",
+        "summary_short": "Offshore wind turbines are ocean-based machines that harness natural wind to generate electricity.",
+        "intro_short": "An estimated 23% of global GHG emissions (100-yr basis) comes from electricity generation (Clarke et al., 2022); in 2022, more than 60% of global electricity generation came from fossil fuel-based energy sources (International Energy Agency [IEA], 2024a).",
+        "impact": "Using baseline global adoption and effectiveness, we estimated the current total climate impact of offshore wind turbines to be approximately 0.14 Gt CO₂‑eq (0.14 Gt CO₂‑eq , 20-yr basis) of reduced emissions per year (Table 7). We estimated future climate impacts using the emissions from the 2023 baseline electricity grid. Actual emissions reductions could differ depending on how the emissions intensity of electricity generation changes over time. Assuming global policies on offshore wind power – both existing and announced – are backed with adequate implementation provisions, global adoption could reach 1 million MW by 2050.",
+        "original_source_url": "https://drawdown.org/explorer/deploy-offshore-wind-turbines"
+    },
+    {   
+        "id": 3,
+        "sector_id": 1,
+        "title": "Deploy Onshore Wind Turbines",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_OnShoreWind_2400x2400.jpeg?itok=7Mb7tq-z",
+        "summary_short": "Onshore wind turbines are land-based machines that harness natural wind to generate electricity.",
+        "intro_short": "An estimated 23% of global GHG emissions on a 100-yr basis comes from electricity generation annually (Clarke et al., 2022), and in 2022 more than 60% of global electricity generation came from fossil fuel-based energy sources (International Energy Agency [IEA], 2024c). Since wind is a clean and renewable resource, onshore wind turbines do not contribute to GHG emissions or air pollution while generating energy.",
+        "impact": "Based on baseline global adoption and effectiveness, we estimate the current total climate impact of onshore wind turbines to be 1.6 Gt CO₂‑eq (1.6 Gt CO₂‑eq , 20-year basis) of reduced emissions per year. We estimated the achievable range of climate impacts using the emissions from the 2023 baseline electricity grid; actual emissions reductions could differ depending on how the emissions intensity of electricity generation changes over time. The IEA Stated Policies Scenario projected that global adoption would reach 3.2 million MW by 2050 (IEA, 2024d), resulting in an increased emissions reduction of 5.4 Gt CO₂‑eq (5.4 Gt CO₂‑eq , 20-year basis) per year.",
+        "original_source_url": "https://drawdown.org/explorer/deploy-onshore-wind-turbines"
+    },
+    {   
+        "id": 4,
+        "sector_id": 1,
+        "title": "Deploy Utility-Scale Solar PV",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_UtilityScalePV_2400x2400.jpeg?itok=IsCTbeFc",
+        "summary_short": "Utility-scale solar PV refers to large solar power systems, typically installed on open land and connected directly to a central electric grid, that generate electricity for widespread distribution.",
+        "intro_short": "An estimated 23% of GHG emissions on a 100-year basis comes from electricity generation annually (Clarke et al., 2022), and in 2022, more than 60% of global electricity generation came from fossil fuel-based energy sources (International Energy Agency [IEA], 2024b). Since solar is a clean, renewable resource, utility-scale solar PV does not contribute to GHG emissions or air pollution while generating energy.",
+        "impact": "We estimated climate impacts using the emissions from the 2023 baseline electricity grid. Actual emissions reductions could differ depending on how the emissions intensity of electricity generation changes over time. As solar and other renewables grow to represent an increasingly high percentage of power generation sources, grid emissions are expected to decrease over time (DNV, 2024; IEA, 2024a). As a result, the climate impacts presented here are likely overestimates. Assuming global policies on utility-scale solar PV – both existing and announced – are backed with adequate implementation provisions, global adoption could reach 12 million MW by 2050.",
+        "original_source_url": "https://drawdown.org/explorer/deploy-utility-scale-solar-pv"
+    },
+    {   
+        "id": 5,
+        "sector_id": 1,
+        "title": "Deploy Cool Roofs",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY26_Explorer_NON_CoolRoofs_2400x2400.jpg?itok=lxVHWJZ-",
+        "summary_short": "Cool roofs cut GHG emissions from electricity generation by lowering the amount of cooling required to condition indoor spaces, thereby decreasing the use of air conditioners.",
+        "intro_short": "Using cool roofs can effectively reduce the amount of air conditioning needed to cool indoor spaces, though their potential to cut annual electricity use in buildings and resulting GHG emissions is minimal. Nonetheless, evidence from real-world applications demonstrates that the surface temperatures of cool roofs can be as much as 28-30°C cooler than conventional roofs on extremely hot afternoons.",
+        "impact": "Our analysis concludes that the projected climate impact of using cool roofs on buildings is not large enough to be globally significant (>0.1 Gt CO₂‑eq/yr ). However, we consider it “Worthwhile” because it helps reduce electricity consumption in buildings, makes indoor spaces more thermally comfortable, and lessens the urban heat island effect.",
+        "original_source_url": "https://drawdown.org/explorer/deploy-cool-roofs"
+    },
+    {   
+        "id": 6,
+        "sector_id": 2,
+        "title": "Improve Cement Production",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_CementProduction_2400x2400.jpg?itok=iHk3DawS",
+        "summary_short": "Cement is a key ingredient of concrete, a manufactured material used in massive quantities around the world. Cement production generates high CO₂ emissions from the production of clinker, a binding ingredient.",
+        "intro_short": "Concrete production requires the manufacturing of 4 Gt of cement annually (U.S. Geological Survey, 2024). Roughly 85% of cement industry GHG emissions come from the production of a key cement component called clinker. Both the clinker formation chemical reaction and fuel combustion for high-temperature clinker kilns release GHGs (Goldman et al., 2023).",
+        "impact": "Miller & Moore (2020) estimated that the health damages associated with cement production amounted to approximately US$60 billion globally in 2015. These health damages are due to air pollutants produced during cement manufacturing, which would be reduced by this solution as described above. In China, one study estimated that improving energy efficiency in the Jing Jin Ji region’s cement industry could prevent morbidity in 17,000 individuals (Zhang et al., 2021).",
+        "original_source_url": "https://drawdown.org/explorer/improve-cement-production"
+    },
+    {   
+        "id": 7,
+        "sector_id": 2,
+        "title": "Increase Centralized Composting",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_Composting_2400x2400.jpg?itok=HAoouZN6",
+        "summary_short": "A composting system diverts organic waste (OW) from landfills, reducing the production of methane and other GHG emissions.",
+        "intro_short": "There are many stages involved in a composting system to convert organic MSW into finished compost that can be used to improve soil health (Figure 1). Within this system, composting is the biochemical process that transforms OW into a soil amendment rich in nutrients and organic matter. ",
+        "impact": "Although our achievable range is conservative compared to the estimated adoption ceiling, increased composting has the potential to reduce GHG emissions from landfills (Table 7). We estimated that current adoption reduces annual GHG emissions by 0.3 Gt CO₂‑eq/yr (0.73 Gt CO₂‑eq/yr, 20-yr basis). Our estimated low and high achievable adoption levels reduce 0.78 and 1.2 Gt CO₂‑eq/yr (1.9 and 2.8 Gt CO₂‑eq/yr, 20-yr basis), respectively. Using the adoption ceiling, we estimate that annual GHG reductions increase to 5.2 Gt CO₂‑eq/yr (12.6 Gt CO₂‑eq/yr, 20-yr basis).",
+        "original_source_url": "https://drawdown.org/explorer/increase-centralized-composting"
+    },
+    {   
+        "id": 8,
+        "sector_id": 2,
+        "title": "Deploy Industrial Green Hydrogen",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_Deploy%20Industrial%20Green%20Hydrogen%20Feedstock_2400x2400.jpg?itok=3jZOa8hm",
+        "summary_short": "In this solution, green hydrogen replaces fossil fuel-based hydrogen for use as a feedstock in the production of more complex molecules such as ammonia for fertilizers and methanol for the production of other commodity chemicals.",
+        "intro_short": "Green hydrogen in this solution is hydrogen produced from water by electrolysis using renewable electricity generated on-site or directly supplied from an off-site location. It can reduce emissions when replacing hydrogen made from fossil fuels as an industrial feedstock.",
+        "impact": "Current adoption of green hydrogen as an alternative is too low to have a globally meaningful climate impact (less than 0.002 Gt CO₂‑eq/yr estimated on both 20- and 100-year basis). We estimate that green hydrogen could reduce 0.31 Gt CO₂‑eq/yr (100- and 20-year basis) of emissions at the Achievable – Low level and 0.60 Gt CO₂‑eq/yr (100- and 20-year basis) at the Achievable – High level (Table 7). This outcome is closely aligned with the IEA’s estimate that in 2023, industrial hydrogen use was responsible for 680 Mt CO₂‑eq/yr, 90% (0.61 Gt CO₂‑eq/yr ) of which is used as a feedstock for ammonia and methanol production (IEA, 2024).",
+        "original_source_url": "https://drawdown.org/explorer/deploy-industrial-green-hydrogen"
+    },
+    {   
+        "id": 9,
+        "sector_id": 2,
+        "title": "Improve Landfill Management",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_LandfillManagement_2400x2400.jpg?itok=KP1-BVDk",
+        "summary_short": "Landfill management is the process of reducing methane emissions from landfill gas (LFG).",
+        "intro_short": "Landfill management relies on several practices and technologies that prevent methane from being released into the atmosphere. When organic material is broken down, it creates LFG, which usually is half methane and half CO₂, and water vapor (U.S. Environmental Protection Agency [U.S. EPA], 2024a).",
+        "impact": "Landfill emissions can contribute to health issues such as cancer, respiratory and neurological problems, low birth weight, and birth defects (Brender et al., 2011; Industrious Labs, 2024a; Siddiqua et al. 2022). By reducing harmful air pollutants, capturing landfill methane emissions minimizes the health risks associated with exposure to these toxic landfill compounds. Capturing LFG can reduce malodorous landfill emissions – pollutants such as ammonia and hydrogen sulfide – that impact human well-being (Cai et al., 2018).",
+        "original_source_url": "https://drawdown.org/explorer/improve-landfill-management"
+    },
+    {   
+        "id": 10,
+        "sector_id": 2,
+        "title": "Improve District Heating: Industry",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_DistrictHeating_2400x2400.jpg?itok=Ml4iT8rQ",
+        "summary_short": "Improving district heating for industry involves using low-carbon alternatives, such as electric boilers, heat pumps, and waste heat from other industries, to provide heat to industries for their operations.",
+        "intro_short": "District heating systems consist of a network of underground pipes that distribute heat to a large number of buildings, including industrial buildings. In the industrial sector, district heating is used by light industries and for processes such as drying, paper making, food processing, as well as space heating and even heat-driven chillers for refrigeration.",
+        "impact": "District heating for industry currently produces significant emissions. According to the International Energy Agency (IEA), district heating for all applications accounted for 4% of global emissions in 2022, and roughly 40% of the heat energy from district heating was delivered to industry. China is a major adopter of district heating for industries, with the combustion of coal supplying much of that heat. The shift to renewable heat sources is likely to increase because both China and the EU have policies targeting the adoption of renewables in district heating. Because district heating systems serve multiple buildings, a single project to replace fossil fuels with renewables can have a large impact.",
+        "original_source_url": "https://drawdown.org/explorer/improve-district-heating-industry"
+    },
+    {   
+        "id": 11,
+        "sector_id": 3,
+        "title": "Increase Carpooling",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_Carpooling_2400x2400.jpeg?itok=M9LFO1-z",
+        "summary_short": "Carpooling entails increasing the occupancy of passenger cars, including taxis, pickup trucks, motorhomes, passenger vans and other such vehicles but not including two- or three-wheeled, freight, public transit, or commercial vehicles, such as buses, heavy trucks, and commercial vans.",
+        "intro_short": "Carpooling involves transporting multiple people in a single car. Because carpooling increases the number of passengers per vehicle, it reduces emissions per pkm (International Transport Forum [ITF], 2021). However, the actual impact depends on how the carpool trip is organized - for example, whether it replaces solo car trips or shifts people away from public or active transport.",
+        "impact": "Tailpipe emissions from internal combustion engine cars are associated with asthma, lung cancer, increased emergency department visits for respiratory disease, and increased mortality (Anenberg et al., 2019; Guarnieri & Balmes, 2014; Pan et al., 2023; Pennington et al., 2024; Requia et al., 2018; Szyszkowicz et al., 2018). Urban areas, and often those in low- and middle-income countries, experience disproportionately higher vehicle emissions and higher health impacts (Anenberg et al., 2019; Kinney et al., 2011). By reducing vehicle miles traveled, carpooling can reduce vehicle emissions and associated health impacts (Shaheen et al., 2024).",
+        "original_source_url": "https://drawdown.org/explorer/increase-carpooling"
+    },
+    {   
+        "id": 12,
+        "sector_id": 3,
+        "title": "Mobilize Electric Bicycles",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_Ebike_2400x2400.jpg?itok=TrXDMeZh",
+        "summary_short": "We define the Mobilize Electric Bicycles solution as increased travel by bicycles that have an electric motor to supplement the effort of the rider, but require the rider to turn the pedals to activate the motor.",
+        "intro_short": "Electric bicycles use electric power to supplement the muscular effort of the rider. Like conventional bicycles and other forms of nonmotorized transportation, electric bicycles get some of their motive power from human muscle power, which in turn comes from food calories – a form of closed-loop biomass power with no emissions.",
+        "impact": "If every motorist had an electric bicycle they used to replace at least some car trips, it would mitigate 224 Mt CO₂‑eq/yr – equal to the total global carbon emissions produced by cars, minus the emissions that would be produced due to electric bicycles traveling the same distance. If there were one electric bicycle for every two cars, it would avoid 117 Mt CO₂‑eq/yr. And if global electric bicycle adoption reached the rate currently seen in the Asia-Pacific region (China, India, Japan, South Korea, Australia, and New Zealand), it would avoid 47 Mt CO₂‑eq/yr (Table 8a).",
+        "original_source_url": "https://drawdown.org/explorer/mobilize-electric-bicycles"
+    },
+    {   
+        "id": 13,
+        "sector_id": 3,
+        "title": "Mobilize Electric Cars",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_ElectricCars_2400x2400.jpg?itok=cvOydYwT",
+        "summary_short": "Electric cars are four-wheeled passenger cars that run on electricity, usually from the electricity grid and stored in onboard batteries (i.e., not including fuel cell electric cars).",
+        "intro_short": "Electric cars provide the same functionality as fossil fuel–powered cars, but use electric motors rather than fuel-burning engines. The energy for the motors comes from an onboard battery, which is normally charged using electricity from the grid.",
+        "impact": "Since electric cars do not have tailpipe emissions, they can mitigate traffic-related air pollution, which is associated with asthma, lung cancer, increased emergency department visits for respiratory disease, and increased mortality (Anenberg et al., 2019; Guarnieri & Balmes, 2014; Pan et al., 2023; Pennington et al., 2024; Requia et al., 2018; Szyszkowicz et al., 2018). Transitioning to electric cars can reduce exposure to air pollution, improve health, and prevent premature mortality (Garcia et al., 2023; Larson et al., 2021; Peters et al., 2020).",
+        "original_source_url": "https://drawdown.org/explorer/mobilize-electric-cars"
+    },
+    {   
+        "id": 14,
+        "sector_id": 3,
+        "title": "Mobilize Hybrid Cars",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_HybridCars_2400x2400.jpg?itok=IwVgb8D1",
+        "summary_short": "The Mobilize Hybrid Cars solution entails shifting trips from fossil fuel-powered internal combustion engine (ICE) cars to more efficient, lower emitting hybrid cars.",
+        "intro_short": "Hybrid cars reduce fuel consumption and tailpipe emissions by relying on electric propulsion for part of their operation. There are currently more than 45 million hybrids making up 2.2% of the more than two billion global car stock. HEVs provide the same functionality as fossil fuel–powered ICE cars, but combine an ICE with an electric motor and battery to improve fuel efficiency.",
+        "impact": "Because hybrid cars have lower tailpipe emissions than fossil fuel–powered ICE cars, they can reduce traffic-related air pollution, which is associated with asthma, lung cancer, increased emergency department visits for respiratory disease, and increased mortality (Anenberg et al., 2019). Transitioning to hybrid cars can reduce exposure to air pollution, improve health, and prevent premature mortality (Garcia et al., 2023; Larson et al., 2020; Peters et al., 2020).",
+        "original_source_url": "https://drawdown.org/explorer/mobilize-hybrid-cars"
+    },
+    {   
+        "id": 15,
+        "sector_id": 3,
+        "title": "Improve Nonmotorized Transportation",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_NonMotorizedTransport_2400x2400.jpg?itok=eyu4XSLI",
+        "summary_short": "We define Improve Nonmotorized Transportation as increasing any form of travel that does not use a motor or engine.",
+        "intro_short": "Travel shifted from motorized to nonmotorized transportation saves GHG emissions – mostly CO₂, but also small amounts of nitrous oxide and methane (Center for Sustainable Systems, 2023) – that a fossil fuel-powered car would otherwise emit. ",
+        "impact": "On the lower end, if every city achieved a pedestrian and cycling modal share equivalent to the least-motorized city in its region, it would save 1.4 Gt CO₂‑eq/yr. On the higher end, if every city shifted enough passenger car traffic to achieve a car modal share as low as Hong Kong, China, it would save 1.9 Gt CO₂‑eq/yr. If all trips taken by car were shifted onto nonmotorized transportation (an unrealistic scenario), it would save 2.3 Gt CO₂‑eq/yr.",
+        "original_source_url": "https://drawdown.org/explorer/improve-nonmotorized-transportation"
+    },
+    {   
+        "id": 16,
+        "sector_id": 4,
+        "title": "Improve Diets",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_Diets_2400x2400.jpeg?itok=vZ809mW6",
+        "summary_short": "Agriculture produces about 12 Gt CO₂-eq/yr, or 21% of total human-caused GHG emissions (Intergovernmental Panel on Climate Change [IPCC], 2023).",
+        "intro_short": "Reducing ruminant meat consumption, especially in high-consuming regions, has a globally significant potential for climate change mitigation. Ruminants contribute 30% of food-related emissions but generate only 5% of global dietary calories (Li et al., 2024).",
+        "impact": "Reducing ruminant meat consumption has multiple health benefits. Diets high in red meat have been linked to increased risk of overall mortality and mortality from cancer (Pan et al., 2012; Sinha et al., 2009). Excess red meat consumption is also associated with increased risk of cardiovascular disease, stroke, type 2 diabetes, colorectal cancer, and weight gain (Bouvard et al., 2015; Bradbury et al., 2020; Kaluza et al., 2012; Pan et al., 2011; Vergnaud et al., 2010). Diets that incorporate other sources of protein such as fish, poultry, nuts, legumes, low-fat dairy, and whole grains are associated with a lower risk of mortality and a reduction in dietary saturated fat, and can improve the management of diabetes (Pan et al., 2012; Nelson et al., 2016; Toumpanakis et al., 2018). ",
+        "original_source_url": "https://drawdown.org/explorer/improve-diets"
+    },
+    {   
+        "id": 17,
+        "sector_id": 4,
+        "title": "Reduce Food Loss & Waste",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_ReduceFoodLossWaste_2400x2400.jpeg?itok=l_ap-ji6",
+        "summary_short": "More than one-third of all food produced for human consumption is lost or wasted before it can be eaten.",
+        "intro_short": "The global food system, including land use, production, storage, and distribution, generates more than 25% of global GHG emissions (Poore and Nemecek, 2018). More than one-third of this food is lost or wasted before it can be eaten, with estimated associated emissions being recorded at 4.9 Gt CO₂‑eq/yr (our own calculation). FLW emissions arise from supply chain embodied emissions (i.e., the emissions generated from producing food and delivering to consumers). Reducing food loss and waste avoids the embodied emissions while simultaneously increasing food supply and reducing pressure to expand agricultural land use and intensity.",
+        "impact": "An Achievable – Low (25% FLW reduction) could represent 1.23 Gt CO₂‑eq/yr (100-yr basis) of reduced emissions, whereas an Achievable – High (50% FLW reduction) could represent up to 2.47 Gt CO₂‑eq/yr. The adoption potential (100% FLW reduction) would result in 4.94 Gt CO₂‑eq/yr (Table 5). We only report emissions outcomes on a 100-yr basis here because most data sources did not separate the percentage of type of food wasted or disaggregate their associated emissions factors by GHG type. Estimated impacts would be higher on a 20-yr basis due to the higher GWP of methane associated with meat and rice production.",
+        "original_source_url": "https://drawdown.org/explorer/reduce-food-loss-waste"
+    },
+    {   
+        "id": 18,
+        "sector_id": 4,
+        "title": "Improve Nutrient Management",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_NutrientManagement_2400x2400.jpg?itok=5yN0bF8i",
+        "summary_short": "We define the Improve Nutrient Management solution as reducing excessive nitrogen use on croplands.",
+        "intro_short": "Agriculture is the dominant source of human-caused emissions of nitrous oxide (Tian et al., 2020). Nitrogen is critical for plant growth and is added to croplands in synthetic forms, such as urea, ammonium nitrate, or anhydrous ammonia; in organic forms, such as manure or compost; and by growing legume crops, which host microbes that capture nitrogen from the air and add it to the soil (Adalibieke et al., 2023; Ludemann et al., 2024). If more nitrogen is added than crops can use, the excess can be converted to other forms, including nitrous oxide, through microbial processes called denitrification and nitrification (Figure 1; Reay et al., 2012).",
+        "impact": "We estimated that improved nutrient management has the potential to reduce emissions by 0.63 Gt CO₂‑eq/yr, with achievable emissions reductions of 0.42–0.54 Gt CO₂‑eq/yr (Table 6). This is equivalent to an additional 56–76% reduction in total nitrous oxide emissions from fertilizer use, based on the croplands represented in our analysis.",
+        "original_source_url": "https://drawdown.org/explorer/improve-nutrient-management"
+    },
+    {   
+        "id": 19,
+        "sector_id": 4,
+        "title": "Improve Rice Production",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_RiceProduction_2400x2400.jpeg?itok=7Xj5ejs3",
+        "summary_short": "Rice production is a significant source of methane emissions and a minor source of nitrous oxide emissions.",
+        "intro_short": "Rice is a staple crop of critical importance, occupying 11% of global cropland (FAOstat 2025). Rice production has higher GHG emissions than most crop production, accounting for 9% of all anthropogenic methane and 10% of cropland nitrous oxide (Wang et al., 2020). Nabuurs et al. (2022) found methane emissions from global rice production to be 0.8–1.0 Gt CO₂‑eq/yr and growing 0.4% annually.",
+        "impact": "We calculated the potential impact of improved rice, on a 100-yr basis, at 0.10 Gt CO₂‑eq/yr from current adoption, and 0.10, 0.16, and 0.16 from Achievable – Low, Achievable – High, and Adoption Ceiling, respectively (Table 9). On a 20-yr basis, the totals are 0.29, 0.29, 0.46, and 0.46, respectively.",
+        "original_source_url": "https://drawdown.org/explorer/improve-rice-production"
+    },
+    {   
+        "id": 20,
+        "sector_id": 4,
+        "title": "Reduce Overfishing",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Explorer_NON_Overfishing_2400x2400.jpg?itok=QZeuEYuH",
+        "summary_short": "Reduce Overfishing refers to the use of management actions that decrease fishing effort and therefore cut CO₂ emissions from fishing vessel fuel use on overfished stocks.",
+        "intro_short": "Reducing overfishing lowers fuel use and CO₂ emissions from wild capture fishing vessels by reducing fishing effort on overfished stocks. This is typically achieved through management actions, such as seasonal closures, gear restrictions, and catch limits. Fishing effort, whether measured as the hours spent fishing or distance traveled, is generally proportional to fuel use.",
+        "impact": "Rice irrigation is responsible for 40% of all freshwater use in Asia, and rice requires two to three times more water per metric ton of grain than other cereals (Surendran et al., 2021). Field studies across South and Southeast Asia have shown that noncontinuous flooding can typically reduce irrigation requirements 20–30% compared to conventional flooded systems (Suwanmaneepong et al., 2023; Carrijo et al., 2017) without adversely affecting rice yield or grain quality. This reduction in water usage alleviates pressure on water resources in drought-prone areas (Alauddin et al., 2020).",
+        "original_source_url": "https://drawdown.org/explorer/reduce-overfishing"
+    },
+    {   
+        "id": 21,
+        "sector_id": 5,
+        "title": "Protect Grasslands & Savannas",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_ProtectGrasslands_Boreal_2400x2400.jpeg?itok=KrDRH-_X",
+        "summary_short": "This solution focuses on the legal protection of grassland and savanna ecosystems through the establishment of protected areas (PAs), which are managed with the primary goal of conserving nature, and land tenure for Indigenous peoples.",
+        "intro_short": "Grasslands, also called steppes (Europe and Asia), pampas (South America), and prairies (North America), are ecosystems dominated by herbaceous plants that have relatively low tree or shrub cover. Savannas are ecosystems characterized by low-density tree cover that allows for a grass subcanopy (Bardgett et al., 2021; Parente et al., 2024). Grasslands and savannas span arid to mesic climates from the tropics to the tundra; many depend on periodic fires and grazing by large herbivores.",
+        "impact": "We estimated that PAs currently reduce GHG emissions from grassland conversion by 0.468 Gt CO₂‑eq/yr (Table 7a–e). Achievable levels of grassland protection have the potential to reduce emissions 0.572–0.704 Gt CO₂‑eq/yr, with a technical upper bound of 1.006 Gt CO₂‑eq/yr (Table 7a–e). This indicates that further emissions reductions of 0.105–0.237 Gt CO₂‑eq/yr are achievable. For these benefits to be realized, grazing, fire, and woody plant management must be responsive to local grassland needs and compatible with the maintenance of carbon stocks.",
+        "original_source_url": "https://drawdown.org/explorer/protect-grasslands-savannas"
+    },
+    {   
+        "id": 22,
+        "sector_id": 5,
+        "title": "Protect Forests",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_ProtectForests_2400x2400.jpg?itok=P6Hrg-xz",
+        "summary_short": "We define the Protect Forests solution as the long-term protection of tree-dominated ecosystems through establishment of protected areas (PAs), managed with the primary goal of conserving nature, and land tenure for Indigenous peoples.",
+        "intro_short": "Forests store carbon in biomass and soils and serve as carbon sinks, taking up an estimated 12.8 Gt CO₂‑eq/yr  (including mangroves and forested peatlands; Pan et al., 2024). Carbon stored in forests is released into the atmosphere through deforestation and degradation, which refer to forest clearing or reductions in ecosystem integrity from human influence (DellaSala et al., 2025). Humans cleared an average of 0.4% (16.3 Mha) of global forest area annually from 2001–2019 (excluding wildfire but including mangroves and forested peatlands; Hansen et al., 2013, updated 2024).",
+        "impact": "We estimated that forest protection currently avoids approximately 2.00 Gt CO₂‑eq/yr, with potential impacts of 2.49 Gt CO₂‑eq/yr at the low-achievable scenario, 3.62 Gt CO₂‑eq/yr  at the high-achievable scenario, and 4.10 Gt CO₂‑eq/yr at the adoption ceiling (Table 7a–e). Although not directly comparable due to the inclusion of different land covers, these values are aligned with Griscom et al. (2017) estimates that forest protection could avoid 3.6 Gt CO₂‑eq/yr and the IPCC estimate that protection of all ecosystems could avoid 6.2 Gt CO₂‑eq/yr (Nabuurs et al., 2022).",
+        "original_source_url": "https://drawdown.org/explorer/protect-forests"
+    },
+    {   
+        "id": 23,
+        "sector_id": 5,
+        "title": "Improve Annual Cropping",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_AnnualCropping_2400x2400.jpg?itok=r5eNklsO",
+        "summary_short": "Farmers on much of the world's 1.4 billion ha of cropland grow and harvest annual crops - crops like wheat, rice, and soybeans that live for one year or less.",
+        "intro_short": "The Improve Annual Cropping solution incorporates several practices that minimize soil disturbance and introduce a physical barrier meant to prevent erosion to fragile topsoils. Our definition includes two of the three pillars of conservation agriculture: minimal soil disturbance and permanent soil cover (Kassam et al., 2022).",
+        "impact": "Carbon sequestration continues only for a period of decades; because adoption of improved annual cropping was already underway in the 1970s (Kassam et al., 2022), we could not assume that previously adopted hectares continue to sequester carbon indefinitely. Much of the current adoption of improved annual cropping has been in place for decades and sequestration in some of this land has presumably already slowed down to almost zero.",
+        "original_source_url": "https://drawdown.org/explorer/improve-annual-cropping"
+    },
+    {   
+        "id": 24,
+        "sector_id": 5,
+        "title": "Protect Seaweed Ecosystems",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_Protect%20Seaweed_2400x2400.jpg?itok=mWpQtpjG",
+        "summary_short": "Seaweed ecosystem protection is the long-term protection from degradation of wild subtidal brown and red seaweed ecosystems.",
+        "intro_short": "Seaweeds are diverse marine photosynthetic organisms composed of three groups: brown (Phaeophyceae), green (Chlorophyta), and red algae (Rhodophyta). They can form ecosystems, such as kelp forests, and contribute to other marine ecosystems by providing habitat and food. Seaweeds are distinguished from other algae, such as phytoplankton, based on their larger size and because most are attached to substrate rather than free-floating.",
+        "impact": "We estimated that MPAs currently avoid emissions of 0.03 GtCO₂‑eq/yr in seaweed ecosystems, with potential impacts of 0.14 GtCO₂‑eq/yr at the adoption ceiling (Table 7). Achievable levels of seaweed ecosystem protection could safeguard 0.07 to 0.10 GtCO₂‑eq/yr by reducing emissions from biomass loss and retaining sequestration fluxes (Table 7). However, these estimates are highly uncertain and will benefit from more research (see Caveats).",
+        "original_source_url": "https://drawdown.org/explorer/protect-seaweed-ecosystems"
+    },
+    {   
+        "id": 25,
+        "sector_id": 5,
+        "title": "Protect Coastal Wetlands",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_ProtectCoastalWetlands_2400x2400.jpeg?itok=-LXgaFPy",
+        "summary_short": "Coastal wetland protection is the long-term protection of mangrove, salt marsh, and seagrass ecosystems from degradation by human activities.",
+        "intro_short": "Coastal wetlands (defined as mangrove, salt marsh, and seagrass ecosystems, see Figure 1) are highly productive ecosystems that sequester carbon via photosynthesis, storing it primarily below ground in sediments where waterlogged, low-oxygen conditions help preserve it (Adame et al., 2024; Lovelock et al., 2017).",
+        "impact": "We estimated that coastal wetland protection currently avoids approximately 0.04 Gt CO₂‑eq/yr, with potential impacts of 0.27 Gt CO₂‑eq/yr at the adoption ceiling (Table 7a–c, see Appendix for more information on the calculations). The lower-end achievable scenario (50% protection) would avoid 0.14 Gt CO₂‑eq/yr, and the upper-end achievable scenario (70% protection) would avoid 0.20 Gt CO₂‑eq/yr (Tables 7a–c). These values are in line with Macreadie et al. (2021), who estimated a maximum mitigation potential from avoided emissions due to degradation (land conversion) of 0.30 (range: 0.14–0.47) Gt CO₂‑eq/yr for mangrove, salt marsh, and seagrass ecosystems.",
+        "original_source_url": "https://drawdown.org/explorer/protect-coastal-wetlands"
+    },
+    {   
+        "id": 26,
+        "sector_id": 6,
+        "title": "Restore Forests",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_Restore%20Forests%20Boreal_2400x2400_0.jpg?itok=isLIdV73",
+        "summary_short": "Forest restoration is the process of returning previously forested land to a forested state.",
+        "intro_short": "We define forest restoration as planting new trees or allowing trees to naturally regrow on previously forested land that has been cleared. Through photosynthesis, forests take carbon from the atmosphere and store it in biomass. On net, forests currently take up an estimated 11.4–14.7 Gt CO₂‑eq/yr  (Friedlingstein et al., 2023; Gibbs et al., 2025; Pan et al., 2024), equal to approximately 19–25% of total global anthropogenic GHG emissions (Dhakal et al., 2022). Restoring forests increases the size of the forest carbon sink, sequestering additional CO₂.",
+        "impact": "",
+        "original_source_url": "https://drawdown.org/explorer/restore-forests"
+    },
+    {   
+        "id": 27,
+        "sector_id": 6,
+        "title": "Deploy Silvopasture",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_Silvopasture_2400x2400.jpg?itok=i4D_il78",
+        "summary_short": "We define the Deploy Silvopasture solution as the adoption of agroforestry practices that add trees to grazing land, including planted pastures and natural rangelands.",
+        "intro_short": "In silvopasture systems, trees are planted or allowed to naturally regenerate on existing pasture or rangeland. Tree density is generally less than forest, allowing sunlight through for good forage growth. Silvopasture has multiple climate impacts, though carbon sequestration is the only one which has been thoroughly studied across all climates and sub-practices.",
+        "impact": "Carbon sequestration continues only for a period of decades; because silvopasture is an ancient practice with some plantings centuries old, we could not assume that previously adopted hectares continue to sequester carbon indefinitely. Much of the current adoption of silvopasture has been in place for centuries and sequestration there has presumably already slowed down to almost zero. We apply an adoption adjustment factor of 0.25 to current adoption (see Methodology) to reflect that most current adoption is no longer sequestering significant carbon, yet there is substantial new adoption within the past 20–50 years.",
+        "original_source_url": "https://drawdown.org/explorer/deploy-silvopasture"
+    },
+    {   
+        "id": 28,
+        "sector_id": 6,
+        "title": "Restore Grasslands & Savannas",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY26_Explorer_NON_RestoreGrasslands_2400x2400.jpg?itok=pzyXjx64",
+        "summary_short": "Grassland and savanna restoration removes CO₂ from the atmosphere through photosynthesis as the ecosystem regrows, storing carbon in soils and vegetation.",
+        "intro_short": "Restoring grasslands and savannas removes carbon from the atmosphere via photosynthesis and stores it in soils and vegetation. Grassland and savanna restoration includes a spectrum of practices, such as returning ecologically appropriate grazing and fire regimes, reseeding with native species, and controlling invasive and woody plants. ",
+        "impact": "Grassland and savanna restoration may be an effective, low-risk strategy for sequestering carbon on hundreds of millions of hectares while also providing substantial benefits for biodiversity and other ecosystem services. Grasslands and savannas are the largest ecosystem on Earth, covering more than 2.8 billion hectares from the tropics to the tundra. Some studies estimate that roughly half of grasslands are degraded, suggesting that the opportunity for grassland and savanna restoration is in the range of hundreds of millions of hectares even after excluding grazed areas.",
+        "original_source_url": "https://drawdown.org/explorer/restore-grasslands-savannas"
+    },
+    {   
+        "id": 29,
+        "sector_id": 6,
+        "title": "Restore Salt Marsh Ecosystems",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Solutions_CoastalWetlands_SaltMarsh_2400x2400.jpg?itok=H8TLk9pY",
+        "summary_short": "Restore Salt Marsh Ecosystems involves actively reestablishing salt marshes in areas where they were previously lost to conversion or other disturbance, allowing vegetation to regrow and carbon to accumulate in biomass and sediments.",
+        "intro_short": "Restore Salt Marsh Ecosystems removes carbon from the air by reestablishing salt marshes in areas where they were previously drained, filled, or otherwise degraded and lost. As plants take up CO₂ through photosynthesis and vegetation traps sediments, some of this carbon is stored long term in waterlogged soils with slow decomposition rates. Restoration typically reconnects land to tidal exchange and rebuilds marsh elevation and vegetation, which promotes plant growth and sediment accumulation.",
+        "impact": "Restoration of salt marsh ecosystems is a well-established, scalable practice with many benefits for the environment. Restored salt marshes can reduce shoreline erosion and costal flooding, improve water quality by retaining nutrients and sediments, and provide habitat for fish and birds. While global impact is limited, this intervention can be an important multi-benefit tool for building climate resilience and removing carbon in some countries and coastal regions. Restoration is already widely implemented.",
+        "original_source_url": "https://drawdown.org/explorer/restore-salt-marsh-ecosystems"
+    },
+    {   
+        "id": 30,
+        "sector_id": 6,
+        "title": "Restore Seaweed Ecosystems",
+        "feature_img_url": "https://drawdown.org/sites/default/files/styles/crop_to_square_1080/public/media/FY25_Explorer_NON_ProtectSeaweedEcosystems_2400x2400.jpg?itok=sgWl7iu4",
+        "summary_short": "Seaweed (also called macroalgae) ecosystem restoration involves the reestablishment of wild red, brown, and green seaweed through interventions that recover degraded, damaged, or destroyed seaweed ecosystems.",
+        "intro_short": "Seaweed ecosystem restoration is the deliberate action of reestablishing seaweed in degraded, damaged, or destroyed ecosystems. Seaweed removes CO₂ from seawater through photosynthesis, which allows the ocean to absorb additional CO₂ from the atmosphere. Some of the fixed carbon can be sequestered through export to the deep sea or burial at the seafloor, while a portion may also persist as carbon forms that resist degradation even in the surface ocean.",
+        "impact": "Healthy seaweed ecosystems provide a range of ecological benefits. Seaweed can help buffer against ocean acidification in some places as functional systems better regulate pH. These systems also provide complex habitats that support a wide range of marine life, such as fish and invertebrates, so restoring seaweed ecosystems can help recover biodiversity. Seaweed ecosystem restoration can also improve nutrient cycling and overall ecosystem resilience to climate stressors.",
+        "original_source_url": "https://drawdown.org/explorer/restore-seaweed-ecosystems"
+    }
+
+]

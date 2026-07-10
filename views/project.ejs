@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title><%= project.title %></title>
+
+    <link href="/css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <%- include("partials/navbar") %>
+
+    <div class="container mx-auto px-14">
+
+        <div class="hero py-10">
+
+            <div class="hero-content text-center">
+
+                <div>
+
+                    <h1 class="text-5xl font-bold">
+                        <%= project.title %>
+                    </h1>
+
+                    <p class="py-6">
+                        Below, you will find detailed information about the project:
+                        <strong><%= project.title %></strong>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="card bg-base-100 shadow-xl">
+
+            <figure>
+
+                <img src="<%= project.feature_img_url %>" alt="<%= project.title %>">
+
+            </figure>
+
+            <div class="card-body">
+
+                <h2 class="card-title">
+
+                    <%= project.title %>
+
+                </h2>
+
+                <p>
+
+                    <strong>Sector:</strong>
+                    <%= project.sector %>
+
+                </p>
+
+                <p>
+
+                    <strong>Introduction</strong>
+
+                </p>
+
+                <p>
+
+                    <%= project.intro_short %>
+
+                </p>
+
+                <p>
+
+                    <strong>Impact</strong>
+
+                </p>
+
+                <p>
+
+                    <%= project.impact %>
+
+                </p>
+
+                <p>
+
+                    <a href="<%= project.original_source_url %>"
+                       target="_blank"
+                       class="btn btn-primary">
+
+                        Learn More
+
+                    </a>
+
+                </p>
+
+                <div class="divider"></div>
+
+                <h3 class="text-xl font-bold">
+
+                    Quote of the Day
+
+                </h3>
+
+                <blockquote id="quote">
+
+                    Loading...
+
+                </blockquote>
+
+                <div class="mt-6">
+
+                    <a href="#"
+                       onclick="history.back(); return false;"
+                       class="btn btn-secondary">
+
+                        Back
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function () {
+
+            fetch("https://dummyjson.com/quotes/random")
+
+            .then(function(response) {
+
+                return response.json();
+
+            })
+
+            .then(function(data) {
+
+                document.getElementById("quote").innerHTML =
+                    "\"" + data.quote + "\"<br><br><strong>- " + data.author + "</strong>";
+
+            })
+
+            .catch(function() {
+
+                document.getElementById("quote").innerHTML =
+                    "Unable to load quote.";
+
+            });
+
+        });
+
+    </script>
+
+</body>
+
+</html>
