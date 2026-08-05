@@ -6,7 +6,10 @@ function initialize(connectionString) {
 
     return new Promise((resolve, reject) => {
 
-        mongoose.connect(connectionString);
+        mongoose.connect(connectionString, {
+            serverSelectionTimeoutMS: 5000,
+            connectTimeoutMS: 5000
+        });
 
         const db = mongoose.connection;
 

@@ -29,7 +29,7 @@ dotenv.config();
 
 const app = express();
 
-app.use(express.static("public"));
+app.use(express.static(path.join(__dirname, "public")));
 
 app.use(express.urlencoded({ extended: true }));
 
@@ -64,28 +64,66 @@ app.set("view engine", "ejs");
 
 const HTTP_PORT = process.env.PORT || 8080;
 
-Promise.all([
+// This promise is created once, when the module first loads. On a
+// serverless platform like Vercel, the module can be reused across
+// multiple requests in the same warm instance, so every request just
+// awaits this same promise instead of re-connecting every time.
+const dbReady = Promise.all([
     projectData.initialize(),
     userService.initialize(process.env.MONGODB_CONNECTION_STRING),
     taskService.initialize(process.env.POSTGRES_CONNECTION_STRING)
 ])
 .then(function () {
 
-    // Home
-    app.get("/", function (req, res) {
+    console.log("All data sources connected");
 
-        res.render("home");
+})
+.catch(function (err) {
+
+    console.log("Data source initialization failed:", err);
+
+    // Re-throw so any request awaiting dbReady also sees the rejection
+    // instead of hanging forever.
+    throw err;
+
+});
+
+// Every request waits here until the databases are ready before it
+// reaches any route below. Routes themselves are registered immediately
+// (synchronously) so Vercel can see them as soon as the module loads.
+app.use(function (req, res, next) {
+
+    dbReady
+
+    .then(function () {
+
+        next();
+
+    })
+
+    .catch(function (err) {
+
+        res.status(500).send("Service temporarily unavailable. Please try again shortly.");
 
     });
 
-    // About
-    app.get("/about", function (req, res) {
+});
 
-        res.render("about");
+// Home
+app.get("/", function (req, res) {
 
-    });
+    res.render("home");
 
-    // Register Page
+});
+
+// About
+app.get("/about", function (req, res) {
+
+    res.render("about");
+
+});
+
+// Register Page
 app.get("/register", function (req, res) {
 
     res.render("register", {
@@ -128,10 +166,10 @@ app.post("/login", function (req, res) {
     .then(function (user) {
 
         req.session.user = {
-    _id: user._id,
-    userName: user.userName,
-    email: user.email
-};
+            _id: user._id,
+            userName: user.userName,
+            email: user.email
+        };
 
         res.redirect("/dashboard");
 
@@ -219,7 +257,6 @@ app.post("/tasks/add", ensureLogin, function (req, res) {
 });
 
 // Delete Task
-// Delete Task
 app.post("/tasks/delete/:id", ensureLogin, function (req, res) {
 
     taskService.deleteTask(req.params.id)
@@ -278,63 +315,38 @@ app.post("/tasks/edit/:id", ensureLogin, function (req, res) {
 
 });
 
-    // All Projects / Filter by Sector
-    app.get("/solutions/projects", function (req, res) {
+// All Projects / Filter by Sector
+app.get("/solutions/projects", function (req, res) {
 
-        if (req.query.sector) {
+    if (req.query.sector) {
 
-            projectData.getProjectsBySector(req.query.sector)
+        projectData.getProjectsBySector(req.query.sector)
 
-            .then(function (projects) {
+        .then(function (projects) {
 
-                res.render("projects", {
-                    projects: projects
-                });
-
-            })
-
-            .catch(function () {
-
-    res.status(404).render("404", {
-        message: "No projects found for sector: " + req.query.sector
-    });
-
-});
-
-        }
-        else {
-
-            projectData.getAllProjects()
-
-            .then(function (projects) {
-
-                res.render("projects", {
-                    projects: projects
-                });
-
-            })
-
-            .catch(function (err) {
-
-                res.status(404).render("404", {
-                    message: err
-                });
-
+            res.render("projects", {
+                projects: projects
             });
 
-        }
+        })
 
-    });
+        .catch(function () {
 
-    // Single Project
-    app.get("/solutions/projects/:id", function (req, res) {
+            res.status(404).render("404", {
+                message: "No projects found for sector: " + req.query.sector
+            });
 
-        projectData.getProjectById(req.params.id)
+        });
 
-        .then(function (project) {
+    }
+    else {
 
-            res.render("project", {
-                project: project
+        projectData.getAllProjects()
+
+        .then(function (projects) {
+
+            res.render("projects", {
+                projects: projects
             });
 
         })
@@ -347,16 +359,43 @@ app.post("/tasks/edit/:id", ensureLogin, function (req, res) {
 
         });
 
-    });
+    }
 
-    // 404
-    app.use(function (req, res) {
+});
+
+// Single Project
+app.get("/solutions/projects/:id", function (req, res) {
+
+    projectData.getProjectById(req.params.id)
+
+    .then(function (project) {
+
+        res.render("project", {
+            project: project
+        });
+
+    })
+
+    .catch(function (err) {
 
         res.status(404).render("404", {
-            message: "I'm sorry, we're unable to find what you're looking for."
+            message: err
         });
 
     });
+
+});
+
+// 404
+app.use(function (req, res) {
+
+    res.status(404).render("404", {
+        message: "I'm sorry, we're unable to find what you're looking for."
+    });
+
+});
+
+if (require.main === module) {
 
     app.listen(HTTP_PORT, function () {
 
@@ -364,9 +403,6 @@ app.post("/tasks/edit/:id", ensureLogin, function (req, res) {
 
     });
 
-})
-.catch(function (err) {
+}
 
-    console.log(err);
-
-});
+module.exports = app;

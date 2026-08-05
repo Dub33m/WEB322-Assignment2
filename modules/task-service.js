@@ -17,7 +17,8 @@ function initialize(connectionString) {
                     ssl: {
                         require: true,
                         rejectUnauthorized: false
-                    }
+                    },
+                    connectTimeout: 5000
                 },
                 logging: false
             });
