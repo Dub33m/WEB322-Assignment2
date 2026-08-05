@@ -94,6 +94,72 @@
 
             </li>
 
+            <% if (typeof session !== "undefined" && session.user) { %>
+
+                <li>
+
+                    <a href="/dashboard">
+
+                        Dashboard
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="/tasks">
+
+                        Tasks
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="/logout">
+
+                        Logout
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <span class="font-semibold">
+
+                        Welcome, <%= session.user.userName %>
+
+                    </span>
+
+                </li>
+
+            <% } else { %>
+
+                <li>
+
+                    <a href="/login">
+
+                        Login
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="/register">
+
+                        Register
+
+                    </a>
+
+                </li>
+
+            <% } %>
+
         </ul>
 
     </div>

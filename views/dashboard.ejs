@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard</title>
+
+    <link href="/css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <%- include("partials/navbar") %>
+
+    <div class="hero min-h-screen bg-base-200">
+
+        <div class="hero-content">
+
+            <div class="card bg-base-100 shadow-xl w-full max-w-lg">
+
+                <div class="card-body text-center">
+
+                    <h1 class="text-4xl font-bold">
+
+                        Welcome
+
+                    </h1>
+
+                    <p class="mt-4">
+
+                        Hello, <strong><%= user.userName %></strong>
+
+                    </p>
+
+                    <p>
+
+                        <%= user.email %>
+
+                    </p>
+
+                    <div class="mt-6">
+
+                        <a href="/tasks" class="btn btn-primary">
+
+                            View My Tasks
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

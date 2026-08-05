@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login</title>
+
+    <link href="/css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <%- include("partials/navbar") %>
+
+    <div class="hero min-h-screen bg-base-200">
+
+        <div class="hero-content w-full max-w-md">
+
+            <div class="card bg-base-100 shadow-xl w-full">
+
+                <div class="card-body">
+
+                    <h1 class="text-3xl font-bold text-center">
+
+                        Login
+
+                    </h1>
+
+                    <% if (typeof errorMessage !== "undefined" && errorMessage) { %>
+
+                    <div class="alert alert-error mb-4">
+
+                        <%= errorMessage %>
+
+                    </div>
+
+                    <% } %>
+
+                    <form method="POST" action="/login">
+
+                        <label class="label" for="userName">
+
+                            Username
+
+                        </label>
+
+                        <input
+                            id="userName"
+                            type="text"
+                            name="userName"
+                            value="<%= typeof userName !== 'undefined' ? userName : '' %>"
+                            class="input input-bordered w-full"
+                            required>
+
+                        <label class="label mt-4" for="password">
+
+                            Password
+
+                        </label>
+
+                        <input
+                            id="password"
+                            type="password"
+                            name="password"
+                            class="input input-bordered w-full"
+                            required>
+
+                        <button class="btn btn-primary w-full mt-6">
+
+                            Login
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
