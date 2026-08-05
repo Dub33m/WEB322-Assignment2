@@ -64,8 +64,6 @@ app.set("view engine", "ejs");
 
 const HTTP_PORT = process.env.PORT || 8080;
 
-
-
 Promise.all([
     projectData.initialize(),
     userService.initialize(process.env.MONGODB_CONNECTION_STRING),
