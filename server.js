@@ -64,6 +64,9 @@ app.set("view engine", "ejs");
 
 const HTTP_PORT = process.env.PORT || 8080;
 
+console.log("Mongo:", process.env.MONGODB_CONNECTION_STRING);
+console.log("Postgres:", process.env.POSTGRES_CONNECTION_STRING);
+
 Promise.all([
     projectData.initialize(),
     userService.initialize(process.env.MONGODB_CONNECTION_STRING),
